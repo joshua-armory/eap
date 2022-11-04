@@ -1,0 +1,25 @@
+aws:
+  enabled: true
+  accounts:
+    - name: your_first_account_name
+      requiredGroupMembership: []
+      providerVersion: V1
+      permissions: {}
+      accountId: '111111111111'
+      regions:
+        - name: us-east-1
+        - name: us-west-2
+      assumeRole: role/your_firs_role
+    - name: your_second_account_name
+      accountId: "22222222222222"
+      regions:
+        - name: us-east-1
+      assumeRole: role/your_secon_role
+  primaryAccount: your_first_account_name
+  accessKeyId: accesskeyidforaws
+  secretAccessKey: awssecretaccesskeyforaws
+  defaultKeyPairTemplate: '{{name}}-keypair'
+  defaultRegions:
+  - name: us-west-2
+  defaults:
+    iamRole: BaseIAMRole
