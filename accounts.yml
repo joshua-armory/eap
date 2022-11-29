@@ -11,7 +11,7 @@ aws:
         - name: us-west-2
       assumeRole: role/aws-spin-support-access
     - name: okosun
-      accountId: "810711266228""
+      accountId: "810711266228"
       regions:
         - name: us-east-1
       assumeRole: role/aws-spin-support-access
