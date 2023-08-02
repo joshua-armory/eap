@@ -10,4 +10,4 @@ spec:
     branch: main
  ignore: |
     # exclude all
-    /c*
+    /cluster*
