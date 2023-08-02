@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-dep
-  namespace: joshua-operspin
   labels:
     app: nginx
 spec:
