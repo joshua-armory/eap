@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m
-  url: https://github.com/joshua-armory/Terraform
+  url: https://github.com/joshua-armory/flux
   ref:
     branch: main
  # ignore: |
