@@ -5,9 +5,9 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m
-  url: https://github.com/joshua-armory/eap
+  url: https://github.com/joshua-armory/Terraform
   ref:
     branch: main
- ignore: |
-    # exclude all
-    !/cluster/deploy.yml
+ # ignore: |
+ #    # exclude all
+ #    !/cluster/deploy.yml
