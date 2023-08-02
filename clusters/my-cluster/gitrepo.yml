@@ -8,3 +8,5 @@ spec:
   url: https://github.com/joshua-armory/eap
   ref:
     branch: main
+ ignore: |
+   /cluster*
